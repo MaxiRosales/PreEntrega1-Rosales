@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background: linear-gradient(rgb(255, 208, 0), rgb(253, 135, 1) , rgb(253, 60, 1));
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px black;
+    justify-content: space-around;
+    height: 125px;
+}
+.img-logo{
+    width: 300px;
+}
+
+ul{
+    display: flex;
+    cursor: pointer;
+}
+
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 2rem;
+    list-style: none;
+    }
+    
+li:hover{
+    color: white;
+}
