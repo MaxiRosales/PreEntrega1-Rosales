@@ -1,0 +1,15 @@
+
+.itemContainer {
+    text-align: center;
+    border: 1px solid black;
+    margin: 1rem;
+    width: 300px;
+}
+
+img {
+    width: 300px;
+}
+small{
+    display: block;
+    max-height: 50px;
+}
