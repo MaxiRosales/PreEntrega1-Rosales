@@ -1,0 +1,17 @@
+.cartWidget-card {
+    display: flex;
+}
+.cardButton {
+    width: 20px;
+    border-radius: 25%;
+    height: 20px;
+    margin: 5px 5px;
+}
+
+p{
+    width: 25px;
+    background-color: rgb(255, 255, 255);
+    margin: 5px 5px;
+    border-radius: 25%;
+    text-align: center;
+}

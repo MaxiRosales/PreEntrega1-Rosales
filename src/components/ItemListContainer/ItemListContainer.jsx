@@ -6,21 +6,20 @@ import { useParams } from "react-router-dom";
 const ItemListContainer = () => {
   const [products, setProducts] = useState([]);
 
-  const {idCategory} = useParams();
+  const {category} = useParams();
 
   useEffect(() => {
 
-    const functionProducts = idCategory ? getProductsByCategory : getProducts;
+    const functionProducts = category ? getProductsByCategory : getProducts;
 
-    functionProducts(idCategory)
+    functionProducts(category)
       .then(res => setProducts(res))
       .catch(error => console.log(error))
 
-  }, [idCategory])
+  }, [category])
 
   return (
     <div>
-      <h2> asdasdasd </h2>
       <ItemList products={products}/>
     </div>
     

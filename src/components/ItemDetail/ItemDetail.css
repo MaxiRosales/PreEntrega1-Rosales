@@ -1,15 +1,26 @@
 
+.itemPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .itemContainer {
     text-align: center;
     border: 1px solid black;
     margin: 1rem;
-    width: 300px;
+    width: 500px;
+    justify-self: center;
+    align-items: center;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
 }
 
 img {
-    width: 300px;
+    width: 500px;
 }
 small{
     display: block;
-    max-height: 50px;
 }

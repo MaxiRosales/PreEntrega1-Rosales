@@ -1,11 +1,12 @@
 
 import { useState } from "react";
+import "./ItemCount.css";
 
 const ItemCount = ({stock}) => {
 
     const [counter, setCounter] = useState(1);
 
-    const increment = () => {
+    const increase = () => {
       if(counter < stock) {
         setCounter(counter + 1);
       }
@@ -19,12 +20,11 @@ const ItemCount = ({stock}) => {
 
 
   return (
-    <div>
-        <button onClick={decrement}> - </button>
+    <div className="cartWidget-card">
+        <button className="cardButton" onClick={decrement}> - </button>
         <p> {counter} </p>
-        <button onClick={increment}> + </button>
+        <button className="cardButton" onClick={increase}> + </button>
     </div>
   )
 }
-
 export default ItemCount

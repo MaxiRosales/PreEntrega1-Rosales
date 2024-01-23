@@ -18,32 +18,32 @@ const NavBar = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink className="link" to="Adventure & Platform">
+            <NavLink className="link" to="/category/Adventure & Platform">
               Adventure & Platform
             </NavLink>
           </li>
           <li>
-            <NavLink className="link" to="Fighting">
+            <NavLink className="link" to="/category/Fighting">
               Fight
             </NavLink>
           </li>
           <li>
-            <NavLink className="link" to="Racing">
+            <NavLink className="link" to="/category/Racing">
               Racing
             </NavLink>
           </li>
           <li>
-            <NavLink className="link" to="RPG">
+            <NavLink className="link" to="/category/RPG">
               RPG
             </NavLink>
           </li>
           <li>
-            <NavLink className="link" to="Simulator">
+            <NavLink className="link" to="/category/Simulator">
               Simulator
             </NavLink>
           </li>
           <li>
-            <NavLink className="link" to="Sports">
+            <NavLink className="link" to="/category/Sports">
               Sports
             </NavLink>
           </li>
