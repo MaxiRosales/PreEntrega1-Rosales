@@ -7,11 +7,10 @@ const ItemDetail = ({ name, price, details, category, img }) => {
         <div className='itemPage'>
             <div className='itemContainer'>
                 <img src={img} alt={name} />
-                <h2>{name}</h2>
-                <strong>{category}</strong>
-                <small>{details}</small>
-                <button>More Details</button>
-                <h3>{price}</h3>
+                <h2 className='itemDetailH2'>{name}</h2>
+                <strong className='itemDetailStrong'>{category}</strong>
+                <small className='itemDetailSmall'>{details}</small>
+                <h3 className='itemDetailPriceDiv'><span className='usdSpan'>U$D</span>{price},00</h3>
                 <ItemCount />
             </div>
         </div>

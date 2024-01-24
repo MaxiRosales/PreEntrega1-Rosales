@@ -9,18 +9,37 @@
     border: 1px solid black;
     margin: 1rem;
     width: 500px;
-    justify-self: center;
-    align-items: center;
     height: 800px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: rgb(46, 46, 46);
+    border-radius: 12px ;
     
 }
 
 img {
     width: 500px;
+    border-top-right-radius: 12px ;
+    border-top-left-radius: 12px ;
 }
 small{
     display: block;
+}
+
+.itemDetailStrong, .itemDetailSmall{
+    color: white;
+}
+
+.itemDetailH2{
+    background-color: rgb(212, 238, 253);
+    width: 100%;
+}
+
+.itemDetailPriceDiv{
+    background-color: lightgreen;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
 }
