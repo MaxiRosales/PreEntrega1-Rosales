@@ -1,26 +1,27 @@
 
 .cardProduct {
-    border-radius: 10px;
     width: 300px;
-    margin: 10px;
+    margin: 3px;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     background-color: rgb(201, 201, 201);
     border: solid 1px black;
 
 }
 
 .cardProduct img {
-    width: 300px;
-    border-top-right-radius: 9px ;
-    border-top-left-radius: 9px ;
+    width: 160px;
+    height: 100%;
+}
+
+.gameinfo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 .gameNameH2{
     font-size: 100%;
-    margin-top: 5px;
     background-color: rgb(212, 238, 253);
     width: 100%;
     text-align: center;
@@ -29,17 +30,10 @@
 .strongCategory{
     font-weight: 300;
     margin-top: 10px;
-}
-
-.detailSmallDiv{
-    margin: 10px;
-    height: 50px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-small {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 550;
 }
 
 .usdSpan{
@@ -57,6 +51,10 @@ small {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+a.moreDetailButtom{
+    align-self: center;
+}
+
 .moreDetailButtom:hover{
     color: rgb(0, 157, 248);
 }
@@ -64,8 +62,6 @@ small {
 .priceDiv{
     background-color: lightgreen;
     width: 100%;
-    border-bottom-right-radius: 9px ;
-    border-bottom-left-radius: 9px ;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;

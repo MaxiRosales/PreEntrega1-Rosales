@@ -1,0 +1,28 @@
+.purchaseDiv{
+    display: flex;
+    justify-content: space-around;
+}
+
+.purchaseInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    margin: 10px 0px;
+}
+
+.purchaseDetail{
+    color: white;
+}
+
+.purchaseDetailValue{
+    color: rgb(255, 217, 93);
+}
+
+.cartHr{
+    max-width: 80vw;
+    margin-left: 10vw;
+    opacity: 35%;
+}
+

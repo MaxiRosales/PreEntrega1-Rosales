@@ -1,0 +1,40 @@
+.cartTotal{
+    color: white;
+    justify-content: end;
+    display: flex;
+    width: 85vw;
+    margin-top: 10px;
+    color: lightgreen;
+}
+
+.clearCartButton{
+    background-color: rgb(253, 134, 134);
+    width: 150px;
+    height: 40px;
+    border-radius: 17px;
+    text-transform: uppercase;
+    margin-left: 50px;
+    cursor:pointer;
+}
+
+.cartUsdSpan{
+    margin: 0px 5px;
+    font-weight: 50;
+}
+
+.trashIcon{
+    width: 20px;
+}
+
+.completePurchaseButton{
+    background-color: lightgreen;
+    text-transform: uppercase;
+    border-radius: 17px;
+    margin-left: 20px;
+    height: 40px;
+    
+}
+
+.completePurchaseLink{
+    text-decoration: none;
+}

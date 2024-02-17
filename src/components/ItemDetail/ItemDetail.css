@@ -14,17 +14,17 @@
     flex-direction: column;
     justify-content: space-between;
     background-color: rgb(46, 46, 46);
-    border-radius: 12px ;
+    border: solid 2px white;
     
 }
 
 img {
     width: 500px;
-    border-top-right-radius: 12px ;
-    border-top-left-radius: 12px ;
 }
 small{
     display: block;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .itemDetailStrong, .itemDetailSmall{
@@ -34,6 +34,8 @@ small{
 .itemDetailH2{
     background-color: rgb(212, 238, 253);
     width: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
 .itemDetailPriceDiv{
@@ -42,4 +44,36 @@ small{
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
+}
+
+.itemDetailStock{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: aliceblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.itemDetailCartButton{
+    display: flex;
+}
+
+.itemDetailFinishButton{
+    background-color: rgb(255, 217, 93);
+    width: 160px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    height: 36px;
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 17px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.itemDetailFinishButton:hover{
+    color: white;
 }

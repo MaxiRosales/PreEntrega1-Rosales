@@ -1,0 +1,22 @@
+.bodyDiv{
+    background: rgb(0, 3, 32);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+div.productsContainer {
+    padding-top: 20px;
+    width: 66%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.body{
+    background: rgb(0, 3, 32);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
