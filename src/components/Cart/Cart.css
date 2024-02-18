@@ -7,6 +7,19 @@
     color: lightgreen;
 }
 
+.cartEmpty{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.cartButtons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
 .clearCartButton{
     background-color: rgb(253, 134, 134);
     width: 150px;
@@ -15,6 +28,14 @@
     text-transform: uppercase;
     margin-left: 50px;
     cursor:pointer;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.clearCartButtonSpan{
+    display: flex;
+    justify-content: center;
 }
 
 .cartUsdSpan{
@@ -32,9 +53,15 @@
     border-radius: 17px;
     margin-left: 20px;
     height: 40px;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
     
 }
 
 .completePurchaseLink{
     text-decoration: none;
+    color: black;
 }

@@ -2,12 +2,8 @@
 body{
     margin: 0px;
     padding: 0px;
-    background: rgb(0, 3, 32);
-    display: grid;
-    place-content: center;
 }
 
-body div{
-    display: grid;
-    place-content: center;
+html{
+    background-color: rgb(0, 3, 32);
 }

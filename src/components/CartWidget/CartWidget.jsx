@@ -7,11 +7,11 @@ import './CartWidget.css'
 export const CartWidget = () => {
   const { quantity } = useContext(CartContext);
   return (
-    <div className='cart-div'>
-      <Link to="/cart">
+    <div>
+      <Link className='cart-div' to="/cart">
         <img className='cart-img' src="./img/cart.png" alt="cart" />
         {
-          quantity > 0 && <strong> {quantity} </strong>
+          quantity > 0 && <strong className='cartQuantity'> {quantity} </strong>
         }
       </Link>
     </div>

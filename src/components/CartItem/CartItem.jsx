@@ -1,9 +1,9 @@
 import React from 'react'
 import "./CartItem.css"
 
-const CartItem = ({ item, units}) => {
+const CartItem = ({ item, units, index}) => {
   return (
-    <div>
+    <div key={index}>
     <div className='purchaseDiv'>
       <div className="purchaseInfo">
         <p className='purchaseDetail'>Name:</p>
@@ -11,7 +11,7 @@ const CartItem = ({ item, units}) => {
       </div>
       <div className="purchaseInfo">
         <p className="purchaseDetail">Units:</p>
-        <p className='purchaseDetailValue'>{units} </p>
+        <p className='purchaseDetailValue'>{units}</p>
       </div>
       <div className="purchaseInfo">
         <p className="purchaseDetail">Price:</p>

@@ -1,0 +1,42 @@
+.checkoutInfo{
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+}
+
+.formPosition{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formDiv{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    align-items: center;
+}
+
+.formLabel{
+    color: white;
+    display: flex;
+}
+
+.finishOrderButton{
+    margin-top: 20px;
+    text-transform: uppercase;
+    background-color: lightgreen;
+    width: 120px;
+    height: 50px;
+    border-radius: 30px;
+}
+.finishOrderButton:hover{
+    background-color: rgb(74, 235, 74);
+}
+
+.purchaseSuccess{
+    color: white;
+    margin: 30px;
+    font-size: 20px;
+}
